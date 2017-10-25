@@ -1,0 +1,100 @@
+/* BODY */
+body {
+  background-color: #fff;
+}
+
+/* HEADER */
+
+header {
+  position: fixed;
+  width: 90%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo {
+  float: left;
+  width: 50%;
+}
+
+/* main */
+
+.TOC {
+  margin: 10%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.TOC li {
+  counter-increment: step-counter;
+  position: relative;
+  
+}
+
+.TOC li:before {
+  content: counter(step-counter);
+  font-family: 'Raleway', sans-serif;
+  font-size: 10rem;
+  position: absolute;
+  bottom: -3%;
+  right: 40%; 
+  z-index: -1;
+  color: #dbdbdb;
+}
+
+.TOC h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5%;
+    color: #6B9080;
+    z-index: 
+}
+
+.TOC p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.TOC .MUD {
+  width: 90%;
+  padding: 0;
+}
+
+.TOC .LIP {
+  width: 90%;
+  padding: 0;
+}
+
+.TOC .BODY {
+  width: 90%;
+  padding: 0;
+}
+
+@media screen and (min-width:37.5rem){
+  .TOC li {
+    float: left;
+    width: 33.3333%;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+footer ul {
+	position: fixed;
+	z-index: 3;
+	left: 44%;
+}
+
+

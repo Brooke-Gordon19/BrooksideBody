@@ -1,0 +1,59 @@
+body {
+    background-image: url("../img/Candle.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+header {
+  position: fixed;
+  width: 90%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo {
+	float: left;
+	width: 50%;
+}
+
+main {
+	position: absolute;
+	top: 50%;
+	right: 2.5%;
+	transform: translateY(-50%);
+}
+
+main h2 {
+	font-family: 'Neuton', serif;
+	text-align: right;
+	font-size: 4rem;
+	color: #6B9080
+}
+
+main ul {
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	font-size: 2rem;
+	color: #EAF4F4
+
+}
+main a {
+	color: #EAF4F4;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+footer ul {
+	position: fixed;
+	z-index: 4;
+	left: 44%;
+}
+
+
